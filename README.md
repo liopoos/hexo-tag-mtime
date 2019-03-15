@@ -1,6 +1,9 @@
 # Hero-tag-mtime
 
-![](https://img.shields.io/npm/l/hexo-tag-link-card.svg)
+<figure class="third">
+	<img src="https://img.shields.io/npm/l/hexo-tag-mtime.svg" />
+    <img src="https://img.shields.io/npm/v/hexo-tag-mtime.svg" />
+</figure>
 
 Embed a movie card on your [Hexo](https://hexo.io/) article, used [mtime](http://www.mtime.com/) API.
 
