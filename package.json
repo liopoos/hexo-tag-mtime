@@ -1,0 +1,31 @@
+{
+  "name": "hexo-tag-mtime",
+  "version": "0.0.1",
+  "main": "index",
+  "keywords": [
+    "hexo",
+    "helper",
+    "plugin",
+    "tag",
+    "video"
+  ],
+  "author": "hades (https://github.com/mayuko2012)",
+  "license": "MIT",
+  "dependencies": {
+    "hexo-util": "^0.6.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "description": "hexo-tag-mtime",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayuko2012/hexo-tag-mtime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mayuko2012/hexo-tag-mtime/issues"
+  },
+  "homepage": "https://github.com/mayuko2012/hexo-tag-mtime#readme"
+}
