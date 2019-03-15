@@ -27,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/mayuko2012/hexo-tag-mtime/issues"
   },
-  "homepage": "https://github.com/mayuko2012/hexo-tag-mtime#readme"
+  "homepage": "https://github.com/mayuko2012/hexo-tag-mtime#readme",
+  "devDependencies": {}
 }
