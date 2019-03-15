@@ -1,4 +1,4 @@
-# Hero-tag-mtime
+# hexo-tag-mtime
 
 ![LICENSE](https://img.shields.io/npm/l/hexo-tag-mtime.svg) ![NPM VERSION](https://img.shields.io/npm/v/hexo-tag-mtime.svg)
 
