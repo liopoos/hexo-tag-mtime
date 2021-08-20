@@ -6,6 +6,9 @@ const css = (hexo.config.mtime && hexo.config.mtime.css) ? hexo.config.mtime.css
 hexo.extend.tag.register('mtime', function (args) {
     var id = args[0];
     return result = getMoiveInfo(id).then(res => {
+        if (!res) {
+            return;
+        }
         var mtimeHeader = util.htmlTag('div', {
             class: 'mtime-movie_header'
         }, util.htmlTag('img', {
@@ -39,10 +42,10 @@ hexo.extend.tag.register('mtime', function (args) {
 });
 
 async function getMoiveInfo(id) {
-    var url = "https://ticket-api-m.mtime.cn/movie/detail.api?locationId=290&movieId=" + id;
+    var url = "https://front-gateway.mtime.com/library/movie/detail.api?locationId=290&movieId=" + id;
     return request(url).then(function (body) {
         var res = JSON.parse(body);
-        if (res.code) {
+        if (res.code == 0) {
             var data = {
                 name: res.data.basic.name,
                 nameEn: res.data.basic.nameEn,
