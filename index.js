@@ -14,14 +14,14 @@ hexo.extend.tag.register('mtime', function (args) {
         }, util.htmlTag('img', {
             src: res.img,
             class: 'mtime-locandina'
-        }) + util.htmlTag('h1', {}, res.name) + util.htmlTag('h4', {}, res.year + '，' + res.director) + util.htmlTag('div', {}, util.htmlTag('span', {
+        }) + util.htmlTag('span', {style:"font-size:xx-large;"}, res.name) + util.htmlTag('p', {style:'font-size=large;'}, res.year + '，' + res.director) + util.htmlTag('div', {}, util.htmlTag('span', {
             class: 'mtime-minutes'
         }, res.mins) + util.htmlTag('p', {
             class: 'mtime-type'
         }, res.type)));
         var mtimeDesc = util.htmlTag('div', {
             class: 'mtime-movie_desc'
-        }, util.htmlTag('p', {
+        }, util.htmlTag('span', {
             class: 'mtime-text'
         }, res.story));
         var mtimeSection = util.htmlTag('div', {
